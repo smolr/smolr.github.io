@@ -27,6 +27,7 @@ body > #description {
 }
 
 body > #container > a {
+    display: block;
     padding: 20px;
     background-color: #FFFFFF;
     color: #282C34;

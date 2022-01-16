@@ -30,7 +30,7 @@ for slug in links:
     url = links[slug]
     with open(f"{slug}.html", "w+") as file_:
         file_.write(templateSlug.replace("[url]", url))
-    link = f"<a href = {url}>/{slug}</a>"
+    link = f"<a href = {url}>/{slug}</a><br>"
     linkTags.append(link)
 
 linkTags = "".join(linkTags)
